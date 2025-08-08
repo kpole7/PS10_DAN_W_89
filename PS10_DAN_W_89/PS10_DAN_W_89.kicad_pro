@@ -217,7 +217,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -311,6 +311,22 @@
     [
       "e91a2aa5-4be5-4ade-bc4c-021deb2b0b30",
       ""
+    ],
+    [
+      "07d3bc4e-768d-4389-bfff-d89e62de8c19",
+      "IsolatingConverter"
+    ],
+    [
+      "af367b89-ca4e-4a61-86d5-8bf07c7cacb9",
+      "IsolatingConverter1"
+    ],
+    [
+      "a95d9640-ae1d-4cd8-a389-dd4bdbf1c99f",
+      "IsolatingConverter2"
+    ],
+    [
+      "f86e1236-e8fd-465f-a618-d165bb1dead6",
+      "IsolatingConverter3"
     ]
   ],
   "text_variables": {}
