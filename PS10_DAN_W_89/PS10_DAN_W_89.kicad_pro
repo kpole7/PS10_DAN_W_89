@@ -327,6 +327,10 @@
     [
       "f86e1236-e8fd-465f-a618-d165bb1dead6",
       "IsolatingConverter3"
+    ],
+    [
+      "ef79645b-0335-489a-98a9-236189d559b6",
+      "AddressInterpreter"
     ]
   ],
   "text_variables": {}
