@@ -1,0 +1,55 @@
+12 - 13 sierpień 2025
+
+Zasilanie
+Vcc = 14.9V
+Vee = -15.0V
+
+Dekodowanie adresu
+SW2 = 0
+U1.16 = 0.0V
+Dla SW2 = 1, U1.16=14.9V
+
+Napięcie referencyjne
+U1.19 = 4.97V
+U5.1  = 6.88V
+
+Przetwornik DAC
+Dla DB = 1111.1111.1111 = FFF i WR=impuls, U1.20 = -4.97V,  U9.2 = -1.162V
+Dla DB = 0111.1111.1111 = 7FF i WR=impuls, U1.20 = -2.48V,  U9.2 = -0.0027V
+Dla DB = 1011.1111.1111 = BFF i WR=impuls, U1.20 = -3.73V,  U9.2 = -0.628V
+Dla DB = 1111.0111.1111 = F7F i WR=impuls, U1.20 = -4.82V,  U9.2 = -1.106V
+Dla DB = 1111.1011.1111 = FBF i WR=impuls, U1.20 = -4.90V,  U9.2 = -1.133V
+Dla DB = 0011.0011.1111 = 33F i WR=impuls, U1.20 = -1.010V, U9.2 =  0.740V
+Dla DB = 0000.0000.0000 = 000 i WR=impuls, U1.20 =  0.0000V,U9.2 =  1.158V
+Dla DB = 0000.0100.0000 = 040 i WR=impuls, U1.20 = -0.0777V,U9.2 =  1.129V
+
+Zegar dla przekaźników
+U4.3 ma częstotliwość 3.83 MHz
+
+Regulacja / sterowanie w stanie "jałowym"
+Dla DB = 0011.0011.1111, Vpwr=0:
+U9.2  = 0.74V
+U9.6  = -13.45V
+U11.2 = -2.40V
+U11.6 = 13.55V
+U4.1 = H
+U4.2 = H
+U4.12 = przebieg prostokątny 1.91 MHz
+U4.13 = przebieg prostokątny (przeciwny w fazie do U4.12)
+U5.1  = przebieg prostokątny (przeciwny w fazie do U4.12)
+U5.2  = przebieg prostokątny (zgodny    w fazie z  U4.12)
+U5.12 = H
+U5.13 = H
+
+Tor sygnału Sig1 (płytka Scan Gen podłączona; regulacja / sterowanie w stanie "jałowym")
+Vpwr = 0V
+U6.1 = przebieg impulsowy (f=40.2 kHz; wypełnienie=1/8)
+U6.3 = przebieg impulsowy (f=40.2 kHz; wypełnienie=7/8)
+U10.1= przebieg zbliżony do piłokształtnego, zniekształcony 
+  z powodu nasycenia U10.1 (Vpp=30V; tr=3us; tf=18us)
+U10.6 = 14.6V
+U10.7 = 14.9V
+
+
+
+
