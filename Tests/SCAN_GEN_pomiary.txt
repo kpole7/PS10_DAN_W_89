@@ -1,0 +1,4 @@
+Płytka SCAN GEN
+Vcc=14.9V
+U1.11 ma częstotliwość 40.2 kHz
+U1.1  ma częstotliwość 321 kHz

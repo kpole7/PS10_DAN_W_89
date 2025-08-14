@@ -1,4 +1,6 @@
 12 - 13 sierpień 2025
+Zasilacz DAN_W_89
+Egzemplarz "7"
 
 Zasilanie
 Vcc = 14.9V
