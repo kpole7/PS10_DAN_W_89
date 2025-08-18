@@ -7378,7 +7378,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x03") (at 104.14 152.4 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6caca1d8-bd68-4718-abcb-cc9b724990f9)
-    (property "Reference" "J100" (at 103.505 144.78 0)
+    (property "Reference" "U100" (at 103.505 144.78 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Sensor_LEM" (at 102.87 146.685 0)
@@ -7396,7 +7396,7 @@
     (instances
       (project "PS10_DAN_W_89"
         (path "/e91a2aa5-4be5-4ade-bc4c-021deb2b0b30"
-          (reference "J100") (unit 1)
+          (reference "U100") (unit 1)
         )
       )
     )
