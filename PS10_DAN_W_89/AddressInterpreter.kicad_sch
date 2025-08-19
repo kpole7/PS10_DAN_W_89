@@ -961,7 +961,7 @@
   (symbol (lib_id "Switch:SW_DIP_x08") (at 134.62 33.02 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0e206545-47b0-4554-bee2-a6576eee6432)
-    (property "Reference" "SW2" (at 144.78 33.02 90)
+    (property "Reference" "SW1" (at 144.78 33.02 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SW_DIP_x08" (at 146.05 34.29 90)
@@ -992,7 +992,7 @@
     (instances
       (project "PS10_DAN_W_89"
         (path "/e91a2aa5-4be5-4ade-bc4c-021deb2b0b30/ef79645b-0335-489a-98a9-236189d559b6"
-          (reference "SW2") (unit 1)
+          (reference "SW1") (unit 1)
         )
       )
     )
